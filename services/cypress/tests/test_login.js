@@ -3,6 +3,7 @@ it('sets auth cookie when logging in via form submission', function () {
     const password = "p@ssword"
 
     cy.visit('/login')
+    cy.wait(500)
 
     cy.get('input[name=name]').type(username)
 
