@@ -13,6 +13,7 @@ import ProtocolHandler from "./model/protocol_handler";
 
 window.APIHost = (document.location.host === "localhost:3000" ? "localhost:8000" : document.location.host)
 
+//some change for a PR
 class Index extends React.Component {
     constructor(props) {
         super(props);
